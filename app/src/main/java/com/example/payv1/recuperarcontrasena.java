@@ -6,7 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
+//prueba de git
+// puto
+// jejeje
+// mazorcon
+// bueno pues ya 
 public class recuperarcontrasena extends AppCompatActivity {
 
     private Button btn_recuperar;
