@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PayV1</string>
+    <string name="clickable"><u>He olvidado la contraseña!</u></string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="invalid_mail"> Ingrese un correo valido</string>
+    <string name="invalid_password"> Ingrese una contraseña mayor a 6 digitos</string>
+
+
+</resources>

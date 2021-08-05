@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        app:fab_addButtonColorNormal="@color/black"
+        app:fab_labelStyle="@style/LabelStyle"
+        app:fab_addButtonColorPressed="#4B4B4B"
+        app:fab_labelsPosition="left">
+
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_retiros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#4B4B4B"
+            app:fab_colorPressed="@color/black"
+            app:fab_icon="@drawable/retiroiconblanco"
+            app:fab_size="mini"
+            app:fab_title="Retiros" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_consignaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#4B4B4B"
+            app:fab_colorPressed="@color/black"
+            app:fab_icon="@drawable/ic_consignarblanco"
+            app:fab_size="mini"
+            app:fab_title="Consignaciones" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_trasferencias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#4B4B4B"
+            app:fab_colorPressed="@color/black"
+            app:fab_icon="@drawable/ic_transferenciablanco"
+            app:fab_size="mini"
+            app:fab_title="Trasferencias" />
+
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <LinearLayout
+        android:id="@+id/imagenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="400dp"
+        android:orientation="vertical" >
+        />
+
+        <ImageView
+            android:id="@+id/alerta"
+            android:layout_width="476dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/home" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Alertadialogo"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/opciones" />
+
+    <LinearLayout
+        android:id="@+id/informaciondeDinero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="400dp"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Disponible"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/etSaldo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/botonesprincipales1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="340dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/trasferenciaBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            app:srcCompat="@drawable/ic_transferencia" />
+
+        <ImageView
+            android:id="@+id/perfilbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            app:srcCompat="@drawable/user" />
+
+        <ImageView
+            android:id="@+id/ahorrobtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            app:srcCompat="@drawable/ic_ahorro" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/INFORMACIONDELOSBOTONES1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/RetiroBtn1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            app:srcCompat="@drawable/retiroicon" />
+
+        <ImageView
+            android:id="@+id/consignarBtn1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            app:srcCompat="@drawable/ic_consignar" />
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            app:srcCompat="@drawable/infoicon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/INFORMACIONDELOSBOTONES"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="510dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/RetiroBtnText"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="15dp"
+            android:text="Retiros"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/consignarBtnText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="19dp"
+            android:text=" Consignaciones"
+            android:textSize="16dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trasferenciaBtnText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="7dp"
+            android:text="Info"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/INFORMACIONDELOSBOTONES2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="390dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/RetiroBtnText1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="5dp"
+            android:text="Trasferencia"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/consignarBtnText1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text=" Perfil"
+            android:textSize="16dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trasferenciaBtnText1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:text="Ahorro"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+

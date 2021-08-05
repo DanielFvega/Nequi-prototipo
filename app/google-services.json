@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432636331830",
+    "project_id": "payq-80a11",
+    "storage_bucket": "payq-80a11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432636331830:android:4264000cd3daf85fe3d597",
+        "android_client_info": {
+          "package_name": "com.example.payv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432636331830-vhp6j1qumpj5tq7p6kcva377gbal27i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcn9oa4RZAfsNcZGBLvSpxxo3cnKf-wLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432636331830-vhp6j1qumpj5tq7p6kcva377gbal27i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
