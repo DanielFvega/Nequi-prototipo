@@ -10,7 +10,7 @@ import android.widget.Toast;
 // puto
 // jejeje
 // mazorcon
-// bueno pues ya 
+// bueno pues ya
 public class recuperarcontrasena extends AppCompatActivity {
 
     private Button btn_recuperar;
