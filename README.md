@@ -1,4 +1,4 @@
-# Nequi-prototipo
+#App de pagos,prototipo
 Mi primer poryecto en JAVA Android Studio, este poryecto tiene algunas fallas lo ire mejorando con el tiempo esta conectado con FIREBASE el cual me indica la autenticacion de usuarios y la consultas del dinero 
 ![WhatsApp Image 2021-08-06 at 8 43 47 AM (3)](https://user-images.githubusercontent.com/88461448/128519839-e521d67b-9cf9-4f96-9b2c-d64b03bc4bcf.jpeg)
 ![WhatsApp Image 2021-08-06 at 8 43 47 AM (4)](https://user-images.githubusercontent.com/88461448/128519811-9d348a63-3f5f-4de6-a5d4-2b4149d38c23.jpeg)
